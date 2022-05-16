@@ -1,7 +1,8 @@
 ﻿#include <iostream>
 #include "../../ProblemManager.h"
 
-#include "Problem_17478.h"
+//#include "Problem_17478.h"
+#include "Problem_2447.h"
 
 /* ---------------------------------------------
     각 문제를 객체로 들고 있고 main에서는 해당하는
@@ -14,7 +15,7 @@ int main()
     {
         //ProblemManager::GetI()->AddProblem(nullptr);
         //ProblemManager::GetI()->AddProblem(nullptr);
-        ProblemManager::GetI()->AddProblem(new Problem_17478);
+        ProblemManager::GetI()->AddProblem(new Problem_2447);
     }
 
     ProblemManager::GetI()->Flush();
